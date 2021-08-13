@@ -1,4 +1,4 @@
-﻿@model IEnumerable<Projeto_G2.Models.Categoria>
+﻿@model IEnumerable<Modelo.Tabelas.Categoria>
 @{
     Layout = "~/Views/Shared/_Layout.cshtml";
     ViewBag.Title = "Listagem de CATEGORIAS";
@@ -49,7 +49,6 @@
 </div>
 <div class="panel-footer panel-info">
     @Html.ActionLink("Registrar uma nova CATEGORIA", "Create", null, new { @class = "btn btn-success" })
-</div>
 </div>
 @section styles{
     <link href="@Url.Content("~/content/DataTables/css/dataTables.bootstrap.css")" rel="stylesheet" />
